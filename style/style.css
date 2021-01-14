@@ -1,0 +1,125 @@
+:root{
+    --vermelho: #E50914;
+    --preta: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ESTILOS BÁSICOS */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    background-color: var(--preta);
+}
+
+header {
+    background: linear-gradient(to bottom, rgba(0,0,0, 0.2)50%, rgba(0,0,0, 1)100%), right top url(../img/destaque.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* NAVBAR */
+header .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0,0.3));
+}
+/* LADO ESQUERDO NAVBAR */
+header .left-side-nav{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.left-side-nav .logo {
+    width: 120px;
+    margin: 10px 36px 10px 36px;
+}
+.left-side-nav .logo img {
+    width: 100%;
+}
+.left-side-nav nav a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #c6c6c6;
+    margin-right: 10px;
+}
+.left-side-nav nav a:hover{
+    color: #ffffff;
+}
+
+/* LADO DIREITO NAVBAR */
+header .right-side-nav{
+    display: flex;
+    align-items: center;
+}
+.right-side-nav i{
+    margin-right: 30px;
+}
+.right-side-nav span{
+    margin-right: 30px;
+}
+.right-side-nav img{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+
+/* FILME/SÉRIE DESTAQUE */
+header .filme-destaque {
+    font-size: 16px;
+    height: 400px;
+    width: 90%;
+    margin: 0 30px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-destaque .titulo{
+    max-width: 20%;
+    margin: 20px 0;
+}
+
+.filme-destaque .descricao{
+    font-size: 16px;
+    font-weight: 200;
+    margin-bottom: 20px;
+    width: 40%;
+}
+
+.botao {
+    background-color: rgba(60, 60, 60, 0.5);
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+
+    padding: 14px 28px;
+    margin-right: 12px;
+    transition: all 0.25s ease;
+}
+.botao:hover{
+    background-color: #ffffff;
+    color: #222222;
+}
+.botao i {
+    margin-right: 5px;
+}
+
+/* CARROUSEL DE FILMES/SÉRIES */
+main{
+    margin: 0 0 0 30px;
+}
+
+.carrosel-filmes h3{
+    margin-bottom: 10px;
+}

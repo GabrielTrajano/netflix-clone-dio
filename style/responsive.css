@@ -1,0 +1,14 @@
+@media screen and (max-width: 750px){
+    .left-side-nav nav{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 602px){
+    .filme-destaque .titulo{
+        min-width: 60%;
+    }
+    .filme-destaque .descricao{
+        display: none;
+    }
+}
