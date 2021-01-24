@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS-->
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     <!-- SCRIPT'S-->
     <script src="https://kit.fontawesome.com/a9bb7ca5cc.js" crossorigin="anonymous"></script>
     <script src="js/owl/jquery.min.js" defer></script>
@@ -16,15 +20,16 @@
     <!-- OWL CSS -->
     <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
-    <link rel="stylesheet" href="style/responsive.css">
+    
 
     <title>Netflix Clone</title>
 </head>
+
 <body>
     <header>
         <div class="navbar">
-            <div class="left-side-nav">
-                <div class="logo"><img src="img/netflix-logo.svg" alt=""></div>
+            <div class="left-side">
+                <div id="logo"><img src="img/netflix-logo.svg" alt=""></div>
                 <nav>
                     <a href="#">Início</a>
                     <a href="#">Séries</a>
@@ -33,7 +38,9 @@
                     <a href="#">Minha lista</a>
                 </nav>
             </div>
-            <div class="right-side-nav">
+            <div class="right-side">
+                <i class="fas fa-search"></i>
+                <span>INFANTIL</span>
                 <i class="fas fa-bell"></i>
                 <img src="img/avatar.png" alt="">
                 <i class="fas fa-caret-down"></i>
@@ -42,7 +49,9 @@
         <div class="filme-destaque">
             <img src="img/serie-principal.png" class="titulo">
             <p class="descricao">
-                Ragnar Lothbrok, um jovem que se considera descendente de Odin, é um guerreiro, fazendeiro e chefe de família. Visionário e sonhando viver diversas aventuras, ele acredita que as riquezas sonhadas por seu povo encontram-se além do mar Báltico. Mas para conseguir conquistá-las ele precisa convencer Earl Haraldson, o líder de seu povo, a permitir que ele e seus guerreiros viagem em direção à Inglaterra.
+                Ragnar Lothbrok, um jovem que se considera descendente de Odin, é um guerreiro, fazendeiro e chefe de
+                família. Visionário e sonhando viver diversas aventuras, ele acredita que as riquezas sonhadas por seu
+                povo encontram-se além do mar Báltico.
             </p>
             <div class="botoes">
                 <button role="button" class="botao">
@@ -58,7 +67,7 @@
     </header>
     <main>
         <div class="carrosel-filmes">
-            <h3>Trending Now</h3>
+            <h3>Populares na Netflix</h3>
             <div class="owl-carousel owl-theme">
                 <div class="item">
                     <img class="box-filme" src="img/mini1.jpg" alt="">
@@ -90,7 +99,7 @@
             </div>
         </div>
         <div class="carrosel-filmes">
-            <h3>Ação</h3>
+            <h3>Continuar assistindo como DevGabriel</h3>
             <div class="owl-carousel owl-theme">
                 <div class="item">
                     <img class="box-filme" src="img/mini10.jpg" alt="">
@@ -123,4 +132,5 @@
         </div>
     </main>
 </body>
+
 </html>

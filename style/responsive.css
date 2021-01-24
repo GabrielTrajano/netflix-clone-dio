@@ -1,14 +1,24 @@
-@media screen and (max-width: 750px){
-    .left-side-nav nav{
+@media screen and (max-width: 900px){
+    .left-side nav{
         display: none;
     }
 }
 
-@media screen and (max-width: 602px){
+@media screen and (max-width: 580px){
+    .right-side i,
+    .right-side span {
+        display: none;
+    }
     .filme-destaque .titulo{
-        min-width: 60%;
+        min-width: 60vw;
     }
     .filme-destaque .descricao{
         display: none;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .filme-destaque .botao {
+        margin-bottom: 0.75rem;
     }
 }
